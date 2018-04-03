@@ -6,7 +6,7 @@ import { UserComponent } from './pages/user/user.component';
 
 const routes: Routes = [{
    path: '', component: HomeComponent, pathMatch: 'full'},
-   {path: 'user', loadChildren: 'app/user/user.module#UserModule'},
+   {path: 'user', loadChildren: 'app/pages/user/user.module#UserModule'},
    {path: 'estante', component: BookcaseComponent
 }];
 

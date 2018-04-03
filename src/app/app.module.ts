@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppRoutingModule } from './app-routing.module';
 
@@ -10,6 +9,8 @@ import { HomeComponent } from './pages/home/home.component';
 import { BookcaseComponent } from './pages/bookcase/bookcase.component';
 import { FooterComponent } from './layout/footer/footer.component';
 import { LoginModule } from './pages/login/login.module';
+import { BookComponent } from './pages/shared/book/book.component';
+import { BookSaleComponent } from './pages/shared/book-sale/book-sale.component';
 
 
 @NgModule({
@@ -18,12 +19,13 @@ import { LoginModule } from './pages/login/login.module';
     HeaderComponent,
     HomeComponent,
     BookcaseComponent,
-    FooterComponent
+    FooterComponent,
+    BookComponent,
+    BookSaleComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule.forRoot(),
     LoginModule
   ],
   providers: [],
