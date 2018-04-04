@@ -1,3 +1,18 @@
-<p>
-  cadastro works!
-</p>
+<form>
+  <div class="form-group">
+    <label for="formControlInput">Login:</label>
+    <input class="form-control" id="formControlInput">
+  </div>
+  <div class="form-group">
+    <label for="formControlTextarea">Senha</label>
+    <input class="form-control" id="formControlTextarea">
+  </div>
+</form>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+  <label class="form-check-label" for="defaultCheck1">
+    Lembrar login (não marque essa opção quando estiver em computadores públicos)
+  </label>
+</div>
+<div button type="button" class="btn btn-outline-info">Enviar</div>  
+  <a [routerLink]="['/esqueci-senha']">Esqueci minha senha</a>
