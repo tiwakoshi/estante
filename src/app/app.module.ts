@@ -11,7 +11,9 @@ import { FooterComponent } from './layout/footer/footer.component';
 import { LoginModule } from './pages/login/login.module';
 import { BookComponent } from './pages/shared/book/book.component';
 import { BookSaleComponent } from './pages/shared/book-sale/book-sale.component';
-
+import { PublishingComponent } from './pages/publishing/publishing.component';
+import { PublishersComponent } from './pages/publishers/publishers.component';
+import { ContactusComponent } from './pages/contactus/contactus.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,10 @@ import { BookSaleComponent } from './pages/shared/book-sale/book-sale.component'
     BookcaseComponent,
     FooterComponent,
     BookComponent,
-    BookSaleComponent
+    BookSaleComponent,
+    PublishingComponent,
+    PublishersComponent,
+    ContactusComponent
   ],
   imports: [
     BrowserModule,
